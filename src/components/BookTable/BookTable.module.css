@@ -1,0 +1,189 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px 0 20px;
+  background: #f6f7f2;
+}
+
+.topSection {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+  color: #2C2F24;
+  line-height: 1.05;
+}
+
+.subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #70706b;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.cardWrapper {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 350px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 36px 36px 28px 36px;
+  border-radius: 14px;
+  width: 760px;
+  max-width: 94%;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.row {
+  display: flex;
+  gap: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.field select {
+  width: 100%;
+  padding: 12px 44px 12px 16px;
+  border-radius: 999px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.field:has(> select)::after,
+.field:has(> input[type="time"])::after {
+  content: "▾";
+  position: absolute;
+  right: 16px;
+  top: 70%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 20px;
+  color: #333;
+}
+
+.field label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2C2F24;
+}
+
+.field input {
+  padding: 12px 16px;
+  border-radius: 24px;
+  border: 1px solid #e6e6e3;
+  outline: none;
+  font-size: 16px;
+}
+
+.field input[type="time"] {
+  padding: 12px 44px 12px 16px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.field input[type="time"] {
+  padding: 12px 44px 12px 16px;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.field input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  appearance: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.field input[type="time"]::-webkit-clear-button,
+.field input[type="time"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.field input[type="time"]::-moz-focus-inner {
+  border: 0;
+}
+
+.field select {
+  padding: 12px 44px 12px 16px;
+  border-radius: 24px;
+  border: 1px solid #e6e6e3;
+  outline: none;
+  font-size: 16px;
+}
+
+.field input:focus,
+.field select:focus {
+  border-color: rgba(120, 40, 40, 0.9);
+}
+
+.button {
+  margin-top: 6px;
+  padding: 14px 18px;
+  border-radius: 28px;
+  border: none;
+  background: #AD343E;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background: #2C2F24;
+}
+
+.mapImage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 76vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media (max-width: 720px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .card {
+    padding: 22px;
+  }
+}

@@ -1,0 +1,149 @@
+.section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.sectionImageFirst {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  gap: 30px;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.text h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.text ol {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.imageWrapper {
+  flex: 1;
+}
+
+.imageWrapper img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.articleStack {
+  display: block;
+  text-align: center;
+  padding: 0px 24px;
+  box-sizing: border-box;
+  width: auto;
+  margin: auto;
+  padding: 25px 20px;
+  background: #F9F9F7;
+}
+
+.title {
+  font-size: 55px;
+  margin-bottom: 45px;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+.imageContainer {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 36px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0px auto 0;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content h3 {
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.content p {
+  color: #414536;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+.content ol {
+  margin-left: 28px;
+  margin-bottom: 18px;
+  color: #414536;
+  line-height: 28px;
+}
+
+.header {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.hero {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sectionBlock {
+  margin-bottom: 34px;
+}
+
+.inlineImage {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto 36px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.inlineImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

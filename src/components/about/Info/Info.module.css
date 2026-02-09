@@ -1,0 +1,65 @@
+.info {
+	display: grid;
+	grid-template-columns: 1fr 420px;
+	gap: 152px;
+	align-items: center;
+	padding: 68px 10%;
+	background: #F9F9F7;
+}
+
+.left {
+	max-width: 720px;
+}
+
+.title {
+	font-size: 55px;
+	color: #2C2F24;
+	font-weight: 500;
+	line-height: 1.02;
+	margin: 0 0 18px 0;
+	font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+.desc {
+	color: #2C2F24;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 32px 0;
+	max-width: 560px;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.card {
+	background: #fff;
+	border-radius: 10px;
+	padding: 28px 20px;
+	text-align: center;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.04) inset;
+	border: 1px solid rgba(0,0,0,0.03);
+}
+
+.card h3 {
+	font-size: 55px;
+	color: #2C2F24;
+	margin: 0;
+	font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+.card p {
+	margin: 8px 0 0 0;
+	color: #666;
+	font-size: 14px;
+}
+
+.right img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 12px;
+	object-fit: cover;
+}

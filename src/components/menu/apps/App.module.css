@@ -1,0 +1,127 @@
+.appsSection {
+  background: #F9F9F7;
+  margin-top: 0px;
+  padding: 90px 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  align-items: center;
+}
+
+.appsSection h2 {
+  font-size: 55px;
+  line-height: 1.1;
+  width: fit-content;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #2C2F24;
+}
+
+.appsSection > div {
+  text-align: left;
+}
+
+.appsSection p {
+  color: #414536;
+  max-width: 420px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 500px;
+}
+
+.appRow1 {
+  margin-left: 50px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.appRow2 {
+  display: flex;
+  gap: 20px;
+  width: 600px;
+}
+
+.appRow3 {
+  margin-left: 50px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.appCard {
+  background: #ffffff;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 65px;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(16,24,40,0.06), 0 6px 16px rgba(16,24,40,0.04);
+  font-weight: 700;
+  font-size: 20px;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.appCard:hover {
+  box-shadow: 0 36px 70px rgba(16,24,40,0.08), 0 10px 26px rgba(16,24,40,0.06);
+}
+
+.brandRed {
+  color: #F63440;
+  font-weight: 700;
+}
+.brandRed1 {
+  color: #F63440;
+  font-weight: 500;
+}
+
+.brandD70 {
+  color: #D70F64;
+}
+
+.brand00cc {
+  color: #00CCBC;
+  font-weight: 800;
+}
+
+.brand05c {
+  color: #05C167;
+  font-weight: 700;
+}
+
+.uber {
+  color: #000000;
+  font-weight: 600;
+}
+.eats {
+  color: #05C167;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+.didi {
+  color: #000000;
+  font-weight: 800;
+}
+.food {
+  color: #000000;
+  font-weight: 200;
+  margin-left: 6px;
+}
+
+.appCard.brandRed { color: #F63440; font-weight:1000; }
+.appCard.brandRed1 { color: #F63440; font-weight:700; }
+.appCard.brandD70 { color: #D70F64; }
+.appCard.brand00cc { color: #00CCBC; font-weight: 800; }
+.appCard.brand05c { color: #05C167; font-weight: 700; }

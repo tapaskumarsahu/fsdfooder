@@ -1,0 +1,133 @@
+.contactPage {
+  background: #faf9f7;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: 400;
+  color: #2C2F24;
+}
+
+.header p {
+  max-width: 600px;
+  margin: 10px auto 0;
+  color: #495460;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.formCard {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.formCard {
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.inputGroup label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  padding: 14px;
+  border-radius: 30px;
+  border: 1px solid #DBDFD0;
+  outline: none;
+  font-size: 14px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: #737865;
+}
+
+.inputGroup textarea {
+  border-radius: 14px;
+  min-height: 120px;
+  resize: none;
+}
+
+.submitBtn {
+  width: 100%;
+  background: #AD343E;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submitBtn:hover {
+  background: #2C2F24;
+  color: #fff;
+}
+
+.infoSection {
+  max-width: 750px;
+  margin: 65px auto 60px;
+  display: flex;
+  text-align: left;
+}
+
+.infoSection > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infoSection h4 {
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0 0 18px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.infoSection p {
+  margin: 0;
+}
+
+.highlight {
+  color: #AD343E;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (min-width: 1000px) {
+  .infoSection {
+    justify-content: space-around;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,35 @@
+.hero {
+height: 90vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.overlay {
+position: absolute;
+inset: 0;
+background: #2C2F24D6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+.playBtn {
+color: #AD343E;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+border: none;
+font-size: 24px;
+cursor: pointer;
+}
+
+.overlay h1 {
+  color: #FFFFFF;
+  font-size: 55px;
+  font-weight: 500;
+}

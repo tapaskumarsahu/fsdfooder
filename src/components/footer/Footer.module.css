@@ -1,0 +1,227 @@
+:root{
+  --bg:#474747;
+  --muted:#ADB29E;
+  --accent:#c94a4a;
+}
+  
+.footer {
+  background: var(--bg);
+  color: var(--muted);
+  padding: 80px 0 48px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-container {
+  display: flex;
+  gap: 90px;
+  width: 1296px;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding: 0 48px;
+  height: 419px;
+
+}
+
+.left { flex: 0.9 }
+.middle { 
+  flex: 0.9;
+  gap: 120px;
+  height: 352px;
+  width: 330px;
+}
+
+.right { 
+  flex: 0.9;
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.brand { 
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+
+.logoImg { 
+  width:56px;
+  height:56px;
+  object-fit:contain;
+  margin-right:12px;
+}
+
+.brandLogo {
+  width:52px;
+  height:auto;
+  display:block;
+  margin-right:8px;
+  filter: brightness(0) invert(1);
+}
+
+.title { 
+  color:#fff;
+  font-family: 'Playfair Display', serif;
+  margin:0;
+  font-size:32.67px;
+  font-weight: 600;
+  display:flex;
+  align-items:center;
+}
+
+.title { 
+  font-style: italic;
+}
+
+.titleLink { 
+  display:inline-flex;
+  align-items:center; 
+  gap:8px;
+  text-decoration:none;
+  color:inherit
+}
+
+.desc { 
+  color: #ADB29E;
+  line-height:1.9;
+  max-width:420px;
+  margin:8px 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.socials { 
+  display:flex;
+  gap:12px;
+  text-decoration: none;
+}
+
+.socialBtn{ 
+  width:35px;
+  height:35px;
+  border-radius:50%;
+  border:none;
+  background:#AD343E;
+  color:#fff; 
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  font-weight:600;
+  box-shadow: 0 1px 18px rgba(0,0,0,0.25);
+}
+
+.socialBtn:hover {
+  background-color: #992f38;
+}
+
+.navColumns { 
+  display:flex;
+  gap:112px;  
+}
+
+.col h4 {
+  color:#fff; 
+  margin:0 0 14px; 
+  font-size:16px;
+  font-weight: 700;
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.right h4 {
+  color: #fff;
+  margin: 0 0 14px;
+  font-size: 15px;
+}
+
+.instagramHeading {
+  font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+}
+
+
+.col { 
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  height:100%;
+}
+
+.col ul { 
+  list-style:none; 
+  padding:0; 
+  margin:0; 
+  color:var(--muted);
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  flex:1;
+}
+
+.col li { 
+  margin:0; 
+  padding:6px 0;
+  font-size:16px;
+}
+
+.col li a { 
+  color: var(--muted); 
+  text-decoration:none;
+}
+
+.col li a:hover { 
+  color:#fff;
+}
+
+.instagramGrid { 
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:16px;
+}
+
+.instagramGrid img { 
+  width:180px;
+  height: 165px;
+  object-fit:cover;
+  border-radius:18px;
+  display:block;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.28);
+}
+
+.divider { 
+  height:1px;
+  width:100%;
+  max-width:1200px;
+  margin:44px auto 18px;
+  background:#ADB29E;
+  opacity: 10%;
+}
+
+.bottom { 
+  text-align:center; 
+  color:#ADB29E; 
+  padding-bottom:8px; 
+  font-size:16px;
+  font-weight: 400;
+}
+
+.icons {
+  color: #fff;
+}
+
+.items {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.links {
+  color: #89b217;
+}
+
+@media (max-width:900px){
+  .footer-container{ flex-direction:column; align-items:flex-start }
+  .navColumns{ flex-direction:row; gap:20px }
+  .instagramGrid img{ height:80px }
+}
